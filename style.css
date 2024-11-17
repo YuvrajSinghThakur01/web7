@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    /* background-color: #FC8F54; */
+    background-image: url(blue-money-business-graph-finance-600nw-2166540277.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+header .header{
+    height: 10vh;
+    width: 100%;
+    background-color: #AA5486;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+}
+.header h1{
+    position: absolute;
+     align-items: center; 
+     padding-top: 20px; 
+     padding-left: 20px;
+     transition: all 0.3s ease-in-out;
+}
+.header h1:hover{
+    scale: 1.2;
+}
+.header a{
+    position: inherit;
+    font-weight: 800;
+    color: black;
+    padding-left: 40px;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease-in;
+}
+.header a:hover{
+    font-size: 20px;
+    color: white;
+}
+.marque{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.main-page1{
+    height: 100%;
+}
+.main-page1 h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+     animation: marquee 8s linear infinite;
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.main-page1 p{
+    /* position: absolute; */
+    z-index: initial;
+    font-size: 40px;
+    color: rgb(248, 155, 155);
+    align-items: center;
+    text-align: center;
+  
+    height: 200px;
+    top: 300px;
+    width: 100%;
+    /* margin-top: 40px; */
+    padding-top: 10px;
+}
+.page2{
+    position: absolute;
+    background-image: url(global-financial-investment-stock-business-chart-trade-market-growth-data-economy-exchange-background-with-abstract-analysis-digital-diagram-profit-rate_79161-1817.avif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120%;
+}
+.page2 h1,h2{
+    color: white;
+    position: relative;
+    /* top: 20%; */
+    font-size: 40px;
+    line-height: 2;
+    align-items: center;
+    text-align: center;
+    /* background-color: #AA5486; */
+}
+.page2 img{
+    margin-left: 350px;
+    width: 50%;
+    height: 400px;
+}
+.page2 ul li {
+    line-height: 2;
+    color: white;
+    list-style: none;
+    font-size: 40px;
+}
+.page3{
+    margin-top: 60%;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+    background-color: #ba3c3c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  /* Image section styling */
+  .card-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Content section styling */
+  .card-content {
+    padding: 15px;
+  }
+  
+  /* Name section styling */
+  .card-name h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Paragraph section styling */
+  .card-description p {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  .page4{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .form-container {
+    
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(223, 48, 48, 0.663);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Form title */
+  h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Input field styles */
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Button styles */
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive form */
+  @media (max-width: 480px) {
+    .form-container {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    input, .submit-btn {
+      font-size: 1rem;
+    }
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Info Section */
+  .contact-info {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #bbb;
+  }
+  
+  /* Social Media Icons Section */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+  }
+  
+  .social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      margin-top: 20px;
+    }
+  
+    .contact-info {
+      margin-bottom: 20px;
+    }
+  }
